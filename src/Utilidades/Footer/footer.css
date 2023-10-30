@@ -1,0 +1,17 @@
+.footer-bg{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25%;
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer-bg>h2{
+    font-size: 37px;
+}
+.footer-bg>p{
+    padding: 0 25% 5% 25%;
+}
+.footer-bg>button{
+    color: #ffffff;
+    font-size: 25px;
+}
