@@ -22,21 +22,21 @@ function Home() {
             <div className='home-bg'>
                 <div className='home-banner'>
                     <img id='LogoBanner' src={logoBanner} alt='Logo Instituto Jardim Peri' />
-                    <h1><span>INSTITUTO</span><br /> JARDIM PERI</h1>
+                    <h1><span id='font-300'>INSTITUTO</span><br /> JARDIM PERI</h1>
                     <p>NOSSA MISSÃO É SERVIR</p>
                 </div>
             </div>
             <section className='sobre-bg'>
                 <img src={sobreimg} alt='' />
                 <div>
-                    <h2>CONHEÇA O INSTITUTO</h2>
+                    <h2><span id='font-300'>CONHEÇA O </span> INSTITUTO</h2>
                     <p>Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst. Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.</p>
                     <button type='button' className='button-home'>Saiba Mais</button>
                 </div>
             </section>
             <section className='doacao-bg'>
                 <div>
-                    <h2>SEJA UM APOIADOR!</h2>
+                    <h2><span id='font-300'>SEJA UM</span> APOIADOR!</h2>
                     <p>Ut pellentesque dignissim sapien sed lobortis. Aenean non molestie nulla. Integer pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium. Nullam vitae nibh ullamcorper, cursus libero nec, tincidunt est.</p>
                     <button type='button' className='button-home'>Doe já!</button>
                 </div>
