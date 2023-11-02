@@ -22,7 +22,7 @@ function Footer() {
         <FooterContainer>
             <div className='footer-bg'>
                 <h2><span id='font-300'>SEJA</span> PARCEIRO <span id='font-300'>E</span> FAÇA PARTE DESTA HISTÓRIA!</h2>
-                <p>Aenean non molestie nulla. Integer pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium.</p>
+                <p>Aenean non molestie nulla. Intege pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium.</p>
                 <button type='button'>Saiba Mais</button>
             </div>
             <div className='footer'>
