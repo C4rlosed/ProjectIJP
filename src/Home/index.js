@@ -26,7 +26,7 @@ function Home() {
                     <p>NOSSA MISSÃO É SERVIR</p>
                 </div>
             </div>
-            <section className='sobre-bg'>
+            <section className='sobre-bg-home'>
                 <img src={sobreimg} alt='' />
                 <div>
                     <h2><span id='font-300'>CONHEÇA O </span> INSTITUTO</h2>
@@ -34,7 +34,7 @@ function Home() {
                     <button type='button' className='button-home'>Saiba Mais</button>
                 </div>
             </section>
-            <section className='doacao-bg'>
+            <section className='doacao-bg-home'>
                 <div>
                     <h2><span id='font-300'>SEJA UM</span> APOIADOR!</h2>
                     <p>Ut pellentesque dignissim sapien sed lobortis. Aenean non molestie nulla. Integer pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium. Nullam vitae nibh ullamcorper, cursus libero nec, tincidunt est.</p>
@@ -42,10 +42,10 @@ function Home() {
                 </div>
                 <img src={doacaoimg} alt='' />
             </section>
-            <article className='noticias-bg'>
+            <article className='noticias-bg-home'>
                 <div className='bannerNews'></div>
-                <div className='noticias-conteudo'>
-                    <div className='noticias'>
+                <div className='noticias-conteudo-home'>
+                    <div className='noticias-home'>
                         <a>
                             <img src={noticia1img} alt=''></img>
                             <h1>PORTA EST ANTE</h1>

@@ -5,19 +5,20 @@
     background-repeat: no-repeat;
     background-position: 50% bottom;
     background-size: cover;
-    height: 700px;
+    height: 600px;
+}
+
+.sobre-banner {
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5%;
 }
 
 .titulo-pg{
     font-size: 34px;
     text-align: center;
     padding-top: 1.5rem;
-}
-
-.sobre-banner {
-    margin: 0;
-    padding-top: 10%;
-    color: #ffffff;
 }
 
 #LogoBanner {

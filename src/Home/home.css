@@ -40,7 +40,7 @@
     font-size: 20px;
 }
 
-.sobre-bg {
+.sobre-bg-home {
     background-image: url(../Utilidades/Imagem/sobre_asset.png);
     background-repeat: no-repeat;
     display: flex;
@@ -50,13 +50,13 @@
     gap: 50px;
 }
 
-.sobre-bg>div {
+.sobre-bg-home>div {
     text-align: center;
     padding: 0 10%;
     font-size: 24px;
 }
 
-.doacao-bg {
+.doacao-bg-home {
     background-image: url(../Utilidades/Imagem/doacao_asset.png);
     background-repeat: no-repeat;
     background-position: right center;
@@ -67,7 +67,7 @@
     gap: 50px;
 }
 
-.doacao-bg>div {
+.doacao-bg-home>div {
     text-align: center;
     padding: 0 10%;
     font-size: 24px;
@@ -79,30 +79,30 @@
     color: #ffffff;
 }
 
-.noticias-bg {
+.noticias-bg-home {
     display: grid;
     justify-items: center;
     grid-template-columns: 12fr;
     padding-bottom: 5%;
 }
 
-.noticias-conteudo {
+.noticias-conteudo-home {
     margin: 0 auto;
     padding: 0 20% 0 20%;
 }
 
-.noticias {
+.noticias-home {
     display: flex;
     gap: 50px;
     text-align: center;
 }
 
-.noticias>a>p {
+.noticias-home>a>p {
     font-size: 20px;
     padding: 0 20px 0 20px;
 }
 
-.noticias>a {
+.noticias-home>a {
     cursor: pointer;
 }
 
@@ -110,6 +110,7 @@
     margin-top: 5%;
     background-image: url(../Utilidades/Imagem/back-up-new.png);
     background-repeat: no-repeat;
+    background-position: 50% 50%;
     height: 500px;
     width: 100%;
 }

@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Utilidades/Header';
 import Home from './Home';
 import Footer from './Utilidades/Footer';
+import Sobre from './Sobre';
 
 const AppContainer = style.div`
   width: 100%;
@@ -12,10 +13,11 @@ const AppContainer = style.div`
 function App() {
   return (
     <AppContainer>
-      <Header></Header>
-      <Home>
-      </Home>
-      <Footer></Footer>
+      {/* <Header></Header> */}
+      {/* <Home>
+      </Home> */}
+      <Sobre></Sobre>
+      {/* <Footer></Footer> */}
     </AppContainer>
   );
 }

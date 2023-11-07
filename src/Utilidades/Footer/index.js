@@ -9,11 +9,11 @@ import whatsapp from '../Imagem/redes_sociais/whatsapp.svg'
 const FooterContainer = style.div`
     background-image: url(${footerImg});
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 0;
     background-size: cover;
-    width: 100%;
-    height: 100%;
-    height: 1030px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 960px;
 `
 
 
