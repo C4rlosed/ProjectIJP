@@ -5,14 +5,14 @@
     background-repeat: no-repeat;
     background-position: 50% bottom;
     background-size: cover;
-    height: 600px;
+    height: 650px;
 }
 
 .sobre-banner {
     margin: 0 auto;
     color: #ffffff;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .titulo-pg{

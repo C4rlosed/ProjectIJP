@@ -14,8 +14,6 @@ const HomeContainer = style.div`
 
 `
 
-
-
 function Home() {
     return (
         <HomeContainer>
