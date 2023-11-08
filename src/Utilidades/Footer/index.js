@@ -13,7 +13,7 @@ const FooterContainer = style.div`
     background-size: cover;
     max-width: 100%;
     max-height: 100%;
-    height: 960px;
+    height: 850px;
 `
 
 

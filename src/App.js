@@ -13,11 +13,9 @@ const AppContainer = style.div`
 function App() {
   return (
     <AppContainer>
-      {/* <Header></Header> */}
-      {/* <Home>
-      </Home> */}
-      <Sobre></Sobre>
-      {/* <Footer></Footer> */}
+      <Header></Header>
+      <Home></Home>
+      <Footer></Footer>
     </AppContainer>
   );
 }

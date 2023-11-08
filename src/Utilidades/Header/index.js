@@ -10,7 +10,6 @@ const HeaderContainer = style.div`
     align-items: center;
     justify-content: space-between;
     margin: 5px 20px;
-    
 `
 
 function Header() {
