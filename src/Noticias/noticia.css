@@ -1,0 +1,24 @@
+.noticias-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Utilidades/Imagem/noticias/fundoNoticias.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% bottom;
+    background-size: cover;
+    height: 650px;
+}
+.noticias-banner{
+    margin: 0 auto;
+    padding-bottom: 10%;
+    color: #ffffff;
+    text-align: center;
+}
+.noticias-banner>h1{
+    margin: 0;
+    font-size: 50px;
+}
+.noticias-banner>p{
+    font-size: 49px;
+    margin: 0;
+}

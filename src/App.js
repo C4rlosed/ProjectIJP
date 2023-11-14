@@ -4,6 +4,7 @@ import Header from './Utilidades/Header';
 import Home from './Home';
 import Footer from './Utilidades/Footer';
 import Sobre from './Sobre';
+import Noticias from './Noticias';
 
 const AppContainer = style.div`
   width: 100%;
@@ -13,9 +14,10 @@ const AppContainer = style.div`
 function App() {
   return (
     <AppContainer>
-      <Header></Header>
+      {/* <Header></Header>
       <Home></Home>
-      <Footer></Footer>
+      <Footer></Footer> */}
+      <Noticias></Noticias>
     </AppContainer>
   );
 }
