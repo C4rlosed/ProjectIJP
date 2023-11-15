@@ -6,6 +6,8 @@ import doacaoimg from '../Utilidades/Imagem/doacao_home.png'
 import noticia1img from '../Utilidades/Imagem/noticia1.png'
 import noticia2img from '../Utilidades/Imagem/noticia2.png'
 import noticia3img from '../Utilidades/Imagem/noticia3.png'
+import Footer from '../Utilidades/Footer';
+import Header from '../Utilidades/Header';
 
 
 const HomeContainer = style.div`
@@ -17,6 +19,7 @@ const HomeContainer = style.div`
 function Home() {
     return (
         <HomeContainer>
+            <Header></Header>
             <div className='home-bg'>
                 <div className='home-banner'>
                     <img id='LogoBanner' src={logoBanner} alt='Logo Instituto Jardim Peri' />
@@ -62,6 +65,7 @@ function Home() {
                     </div>
                 </div>
             </article>
+            <Footer></Footer>
         </HomeContainer>
     )
 };

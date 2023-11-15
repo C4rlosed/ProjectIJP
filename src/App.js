@@ -1,24 +1,22 @@
-import style from 'styled-components'
 import './App.css';
-import Header from './Utilidades/Header';
-import Home from './Home';
-import Footer from './Utilidades/Footer';
-import Sobre from './Sobre';
-import Noticias from './Noticias';
 
-const AppContainer = style.div`
-  width: 100%;
-  height: 100%;
-`
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/home'
+import Sobre from './pages/sobre'
+import Noticias from './pages/noticias'
+import Parceiros from './pages/parceiros'
+import Contato from './pages/contato'
+
 
 function App() {
   return (
-    <AppContainer>
-      {/* <Header></Header>
-      <Home></Home>
-      <Footer></Footer> */}
-      <Noticias></Noticias>
-    </AppContainer>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="Sobre" element={<Sobre />} />
+      <Route path="Noticias" element={<Noticias />} />
+      <Route path="Parceiros" element={<Parceiros />} />
+      <Route path="Contato" element={<Contato />} />
+    </Routes>
   );
 }
 
