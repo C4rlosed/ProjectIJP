@@ -22,3 +22,15 @@
     font-size: 49px;
     margin: 0;
 }
+.card-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;    
+}

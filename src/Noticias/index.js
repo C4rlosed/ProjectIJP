@@ -2,6 +2,9 @@ import style from 'styled-components'
 import Header from '../Utilidades/Header'
 import Footer from '../Utilidades/Footer'
 import '../Noticias/noticia.css'
+import noticia1img from '../Utilidades/Imagem//noticias/noticia1.png'
+import noticia2img from '../Utilidades/Imagem//noticias/noticia2.png'
+import noticia3img from '../Utilidades/Imagem//noticias/noticia3.png'
 
 const NoticiaContainer = style.div``
 
@@ -21,11 +24,11 @@ function Noticia() {
             <div className='card-container'>
                 <div className='card'>
                     {data.map((d) => (
-                        <div>
-                            <div>
-                                <img src={d.img} alt="" />
+                        <div className='card-conteudo'>
+                            <div className='card-img'>
+                                <img src={d.image} alt="" />
                             </div>
-                            <div>
+                            <div className='card-text'>
                                 <h2>{d.title}</h2>
                                 <p>{d.info}</p>
                             </div>
@@ -42,17 +45,17 @@ const data = [
     {
         title: `PORTA EST ANTE`,
         info: `In porta est ante, sed convallis turpis ornare et`,
-        img: '../Utilidades/Imagem/noticia1.png'
+        image: noticia1img
     },
     {
         title: `QUISQUE ALIQUAM`,
         info: `Quisque aliquam ligula et mi pharetra feugiat.`,
-        img: '../Utilidades/Imagem/noticia2.png'
+        image: noticia2img
     },
     {
         title: `PORTA EST ANTE`,
         info: `In porta est ante, sed convallis turpis ornare et`,
-        img: '../Utilidades/Imagem/noticia3.png'
+        image: noticia3img
     },
 
 
