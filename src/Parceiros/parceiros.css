@@ -1,97 +1,100 @@
-.parceiro-banner{
+.parceiro-bg {
 	background-image: url(../Utilidades/Imagem/parceiros/fundoParceria.png);
 	background-repeat: no-repeat;
-    background-position: 50% bottom;
-    background-size: cover;
-    height: 900px;
+	background-position: 50% bottom;
+	background-size: cover;
+	height: 850px;
 }
 
-.background {
-	background-color: #1d1d1d;
-	background-repeat: no-repeat;
+.parceiro-banner {
+	margin: 0 auto;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.titulo-parceiros{
+	text-align: center;
+	font-size: 34px;
+	position: relative;
+	bottom: 100px;
+}
+
+.parceiro-banner>h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.parceiro-banner>p {
+	font-weight: 300;
+	font-size: 45px;
+	margin: 0;
+}
+
+#sub-titulo{
+	background-color: #F0D32C;
+	height: 8px;
+	width: 350px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	bottom: 100px;
+}
+#sub-titulo-2{
+	background-color: #F0D32C;
+	height: 8px;
+	width: 350px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.parceiro-conteudo {
+	background-color: #030303;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 5% 10% 0 20%;
+	height: 550px;
+	/* top, right, bottom, left */
+	padding: 0 15% 0 15%;
+	margin-bottom: 130px;
 	gap: 50px;
-}
-
-.sobre-bg>div {
+	color: #ffffff;
 	text-align: center;
-	padding: 0 10%;
-	font-size: 24px;
 }
 
-#font{
-	font-weight: 300;
+.parceiro-text>p{
+	font-size: 20px;
+	margin: 30px 50px 0 50px;
+}
+.parceiro-text>h2{
+	font-size: 34px;
 }
 
 .button-parceiro {
-	border-radius: 50px;
-	color: #ffffff;
-	width: 200px;
+	margin-top: 30px;
+	border-radius: 30px;
+	font-weight: 600;
+	color: #030303;
+	width: 180px;
 	font-size: 15px;
-	margin: 10px;
-	padding: 10px;
 	text-align: center;
 	background-color: #F0D32C;
-	font-family: 'Montserrat', sans-serif;
+}
+.button-parceiro:hover{
+	background-color: #f5e58b;
 }
 
-/* @mixin white-gradient {
-	background: linear-gradient(to right,
-			rgba(255, 255, 255, 1) 0%,
-			rgba(255, 255, 255, 0) 100%);
+.logos-parceiros{
+	margin: 20px 0 150px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-@keyframes scroll {
-	0% {
-		transform: translateX(0);
-	}
-
-	100% {
-		transform: translateX(calc(-250px * 7));
-	}
-}
-
-.slider {
-	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+.logo-parceiros-img>img{
+	object-fit: contain;
 	height: 100px;
-	margin: auto;
-	overflow: hidden;
-	position: relative;
-	width: 960px;
-
-	&::before,
-	&::after {
-		@include white-gradient;
-		content: "";
-		height: 100px;
-		position: absolute;
-		width: 200px;
-		z-index: 2;
-	}
-
-	&::after {
-		right: 0;
-		top: 0;
-		transform: rotateZ(180deg);
-	}
-
-	&::before {
-		left: 0;
-		top: 0;
-	}
-
-	.slide-track {
-		animation: scroll linear infinite;
-		display: flex;
-		width: calc(250px * 14);
-	}
-
-	.slide {
-		height: 100px;
-		width: 250px;
-	}
-} */
+	/* top, right, bottom, left */
+	padding: 0 20px 0 20px;
+	
+}

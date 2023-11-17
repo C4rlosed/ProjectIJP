@@ -71,8 +71,6 @@ const data = [
         date: `08/11/2022`,
         image: noticia3img
     },
-
-
 ]
 
 export default Noticia;

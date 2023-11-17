@@ -9,16 +9,9 @@ import noticia3img from '../Utilidades/Imagem/noticia3.png'
 import Footer from '../Utilidades/Footer';
 import Header from '../Utilidades/Header';
 
-
-const HomeContainer = style.div`
-    height: 100%;
-    width: 100%;
-
-`
-
 function Home() {
     return (
-        <HomeContainer>
+        <>
             <Header></Header>
             <div className='home-bg'>
                 <div className='home-banner'>
@@ -66,7 +59,7 @@ function Home() {
                 </div>
             </article>
             <Footer></Footer>
-        </HomeContainer>
+        </>
     )
 };
 
