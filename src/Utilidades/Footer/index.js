@@ -28,7 +28,7 @@ function Footer() {
             <div className='footer'>
                 <img id='logoFooter' src={logoFooter} alt='Logo Instituto Jardim Peri' />
                 <h2><span id='font'>INSTITUTO</span><br /> JARDIM PERI</h2>
-                <ul class="links-social">
+                <ul className="links-social">
                     <li>
                         <a href="./">
                             <img src={instagram} alt="Instagram" class="img-icons" />
