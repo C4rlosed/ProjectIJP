@@ -12,7 +12,7 @@
     margin: 0 auto;
     color: #ffffff;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 9%;
 }
 
 .titulo-pg{
@@ -31,7 +31,7 @@
 
 .sobre-banner>h1 {
     font-size: 50px;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 #font-300{
