@@ -108,9 +108,11 @@
 
 .bannerNews {
     margin-top: 5%;
-    background-image: url(../Utilidades/Imagem/back-up-new.png);
+    margin-bottom: 5%;
+    background-image: url(../Utilidades/Imagem/back-up-new.svg);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 500px;
+    background-position: bottom center;
+    background-size: cover;
+    height: 550px;
     width: 100%;
 }
