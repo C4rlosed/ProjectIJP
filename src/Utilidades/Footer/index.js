@@ -5,6 +5,7 @@ import logoFooter from '../Imagem/logo-banner.png'
 import instagram from '../Imagem/redes_sociais/instagram.svg'
 import facebook from '../Imagem/redes_sociais/facebook.svg'
 import whatsapp from '../Imagem/redes_sociais/whatsapp.svg'
+import { Link } from 'react-router-dom'
 
 const FooterContainer = style.div`
     max-width: 100%;
@@ -18,7 +19,7 @@ function Footer() {
             <div className='footer-bg'>
                 <h2><span id='font-300'>SEJA</span> PARCEIRO <span id='font-300'>E</span> FAÇA PARTE DESTA HISTÓRIA!</h2>
                 <p>Aenean non molestie nulla. Intege pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium.</p>
-                <button type='button'>Saiba Mais</button>
+                <button type='button'><Link to="/Parceiros">Saiba Mais</Link></button>
             </div>
             <div className='footer'>
                 <img id='logoFooter' src={logoFooter} alt='Logo Instituto Jardim Peri' />
