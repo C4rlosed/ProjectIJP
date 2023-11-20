@@ -7,6 +7,7 @@ import quebrandobarreiras from '../Utilidades/Imagem/parceiros/quebrandobarreira
 import lovefutbol from '../Utilidades/Imagem/parceiros/lovefutbol.png'
 import freefirelogo from '../Utilidades/Imagem/parceiros/freefirelogo.png'
 import Footer from '../Utilidades/Footer';
+import Carrossel from '../Noticias/carrossel';
 
 const ParceiroContainer = style.div`
 `
@@ -32,6 +33,7 @@ function Parceiro() {
                     <img src={freefirelogo} alt="" />
                 </div>
             </div>
+            <Carrossel></Carrossel>
             <section className="parceiro-conteudo">
                 <img src={parceiroImg} alt="" />
                 <div className='parceiro-text'>

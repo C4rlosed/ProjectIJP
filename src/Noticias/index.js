@@ -6,6 +6,7 @@ import noticia1img from '../Utilidades/Imagem//noticias/noticia1.png'
 import noticia2img from '../Utilidades/Imagem//noticias/noticia2.png'
 import noticia3img from '../Utilidades/Imagem//noticias/noticia3.png'
 import noticiactd from '../Utilidades/Imagem//noticias/noticia_ctd.png'
+import Carrossel from './carrossel'
 
 const NoticiaContainer = style.div``
 
@@ -47,6 +48,7 @@ function Noticia() {
                     </div>
                 </div>
             </article>
+            <Carrossel></Carrossel>
             <Footer></Footer>
         </NoticiaContainer>
     )
