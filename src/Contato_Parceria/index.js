@@ -30,27 +30,27 @@ function ContatoParceria() {
             </div>
             <section className='bg-formulario-parceiro'>
                 <div className="contact-form-parceiro">
-                    <h2 className="titulo-form">CONTATO</h2>
+                    <h2 className="titulo-form">CADASTRAR</h2>
                     <Formulario>
                         <div>
                             <label htmlFor="name">Nome:</label>
-                            <input type="text" required />
+                            <input type="text" required placeholder='Insira o seu nome:'/>
                         </div>
                         <div>
                             <label htmlFor="email">Email:</label>
-                            <input type="email" id="email" name="email" required />
+                            <input type="email" id="email" name="email" required placeholder='Insira o seu email:'/>
                         </div>
                         <div>
-                            <label htmlFor="telefone">Telefone:</label>
-                            <input type="telefone" id="telefone" name="telefone" required />
+                            <label htmlFor="CNPJ">CNPJ:</label>
+                            <input type="CNPJ" id="CNPJ" name="CNPJ" required placeholder='XX.XXX.XXX/0001-XX'/>
                         </div>
                         <div>
-                            <label htmlFor="CPF">CPF:</label>
-                            <input type="CPF" id="CPF" name="CPF" required />
+                            <label htmlFor="RazaoSocial">Razão Social:</label>
+                            <input type="RazaoSocial" id="RazaoSocial" name="RazaoSocial" required placeholder='Razão Social:'/>
                         </div>
                         <div>
                             <label htmlFor="message">Mensagem:</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <textarea id="message" name="message" required placeholder='Escreva uma mensagem:'></textarea>
                         </div>
                         <Botão>
                             <button type="submit">Enviar</button>
