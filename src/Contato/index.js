@@ -1,6 +1,11 @@
 import style from 'styled-components'
 import Header from '../Utilidades/Header';
 import './contato.css'
+import logoFooter from '../Utilidades/Imagem/logo-banner.png'
+import instagram from '../Utilidades/Imagem/redes_sociais/instagram.svg'
+import facebook from '../Utilidades/Imagem/redes_sociais/facebook.svg'
+import whatsapp from '../Utilidades/Imagem/redes_sociais/whatsapp.svg'
+import { Link } from 'react-router-dom'
 
 const ContatoContainer = style.div`
 
@@ -13,7 +18,7 @@ const Formulario = style.form`
 `
 
 const Botão = style.div`
-    margin-left: 23%;
+    margin-left: 24%;
     margin-bottom: 3%;
 `
 
@@ -74,6 +79,28 @@ function Contato() {
                     </div>
                 </div>
             </section>
+            <div className='footer-contato'>
+                <img id='logoFooter' src={logoFooter} alt='Logo Instituto Jardim Peri' />
+                <h2><span id='font'>INSTITUTO</span><br /> JARDIM PERI</h2>
+                <ul className="links-social">
+                    <li>
+                        <a href="https://www.instagram.com/institutojardimperi/" target="_blank">
+                            <img src={instagram} alt="Instagram" class="img-icons" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/institutoperi/" target="_blank">
+                            <img src={facebook} alt="Facebook" class="img-icons" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/search?q=instituto+jardim+peri&oq=ins&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg8MgYIARBFGDkyBggCEEUYOzIGCAMQRRg8MgYIBBBFGDwyBggFEEUYQTIGCAYQRRhBMgYIBxBFGDzSAQgzNjUxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#" target="_blank">
+                            <img src={whatsapp} alt="Whatsapp" class="img-icons" />
+                        </a>
+                    </li>
+                </ul>
+                <p>R. Condessa Amália Matarazzo, 136 - Jardim Peri, São Paulo - SP, 02652-000</p>
+            </div>
         </ContatoContainer>
     )
 };
