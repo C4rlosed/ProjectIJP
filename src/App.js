@@ -6,6 +6,7 @@ import Sobre from './pages/sobre'
 import Noticias from './pages/noticias'
 import Parceiros from './pages/parceiros'
 import Contato from './pages/contato'
+import ContatoParceria from './Contato_Parceria';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="Noticias" element={<Noticias />} />
       <Route path="Parceiros" element={<Parceiros />} />
       <Route path="Contato" element={<Contato />} />
+      <Route path="SejaParceiro" element={<ContatoParceria />} />
     </Routes>
   );
 }

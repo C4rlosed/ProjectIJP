@@ -26,7 +26,7 @@ function Header() {
                     <Link to="/Contato" >CONTATO</Link>
                 </ul>
             </nav>
-            <button type="button"><Link to="/Contato">Seja Parceiro!</Link></button>
+            <button type="button"><Link to="/SejaParceiro">Seja Parceiro!</Link></button>
         </HeaderContainer>
     )
 }
