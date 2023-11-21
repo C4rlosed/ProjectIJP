@@ -1,13 +1,79 @@
 import style from 'styled-components'
 import Header from '../Utilidades/Header';
+import './contato.css'
 
-const ContatoContainer = style.div``
+const ContatoContainer = style.div`
+
+`
+
+const Formulario = style.form`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
+
+const Botão = style.div`
+    margin-left: 23%;
+    margin-bottom: 3%;
+`
 
 
-function Contato(){
-    return(
+
+function Contato() {
+    return (
         <ContatoContainer>
             <Header></Header>
+            <div className='contato-bg'>
+                <h1>JUNTOS FAZEMOS A DIFERENÇA:</h1>
+                <p><span id='font-300'>ENTRE EM CONTATO</span></p>
+            </div>
+            <section className='bg-formulario'>
+                <div className="contact-form">
+                    <h2 className="titulo-form">CONTATO</h2>
+                    <Formulario>
+                        <div>
+                            <label htmlFor="name">Nome:</label>
+                            <input type="text" required />
+                        </div>
+                        <div>
+                            <label htmlFor="email">Email:</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                        <div>
+                            <label htmlFor="telefone">Telefone:</label>
+                            <input type="telefone" id="telefone" name="telefone" required />
+                        </div>
+                        <div>
+                            <label htmlFor="CPF">CPF:</label>
+                            <input type="CPF" id="CPF" name="CPF" required />
+                        </div>
+                        <div>
+                            <label htmlFor="message">Mensagem:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <Botão>
+                            <button type="submit">Enviar</button>
+                        </Botão>
+                    </Formulario>
+                </div>
+
+                <div className='midias-sociais'>
+                    <div className='instagram'>
+                        <h2>INSTAGRAM</h2>
+                        <p>@institutojardimperi</p>
+                    </div>
+
+                    <div className='whatsapp'>
+                        <h2>WHATSAPP</h2>
+                        <p>(11) 97629-6323</p>
+                    </div>
+
+                    <div className='endereco'>
+                        <h2>ENDEREÇO</h2>
+                        <p>R. Condessa Amália Matarazzo, 136 - <br /> Jardim Peri, São Paulo - SP, 02652-000</p>
+                    </div>
+                </div>
+            </section>
         </ContatoContainer>
     )
 };
