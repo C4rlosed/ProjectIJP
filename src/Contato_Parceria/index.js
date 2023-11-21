@@ -24,12 +24,12 @@ function ContatoParceria() {
     return (
         <ParceriaContainer>
             <Header></Header>
-            <div className='contato-bg'>
+            <div className='contato-parceiro-bg'>
                 <h1>JUNTOS FAZEMOS A DIFERENÇA:</h1>
                 <p><span id='font-300'>SEJA NOSSO PARCEIRO</span></p>
             </div>
-            <section className='bg-formulario'>
-                <div className="contact-form">
+            <section className='bg-formulario-parceiro'>
+                <div className="contact-form-parceiro">
                     <h2 className="titulo-form">CONTATO</h2>
                     <Formulario>
                         <div>
@@ -58,7 +58,7 @@ function ContatoParceria() {
                     </Formulario>
                 </div>
 
-                <div className='midias-sociais'>
+                <div className='midias-sociais-parceiro'>
                     <div className='instagram'>
                         <h2>INSTAGRAM</h2>
                         <p>@institutojardimperi</p>
@@ -75,7 +75,7 @@ function ContatoParceria() {
                     </div>
                 </div>
             </section>
-            <div className='footer-contato'>
+            <div className='footer-contato-parceiro'>
                 <img id='logoFooter' src={logoFooter} alt='Logo Instituto Jardim Peri' />
                 <h2><span id='font'>INSTITUTO</span><br /> JARDIM PERI</h2>
                 <ul className="links-social">
