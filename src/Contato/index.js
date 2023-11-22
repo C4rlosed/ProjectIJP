@@ -6,6 +6,7 @@ import instagram from '../Utilidades/Imagem/redes_sociais/instagram.svg'
 import facebook from '../Utilidades/Imagem/redes_sociais/facebook.svg'
 import whatsapp from '../Utilidades/Imagem/redes_sociais/whatsapp.svg'
 import { Link } from 'react-router-dom'
+import React, {useState} from 'react';
 
 const ContatoContainer = style.div`
 
@@ -25,6 +26,15 @@ const Botão = style.div`
 
 
 function Contato() {
+    const [values, setValues] = useState();
+    console.log(values)
+    const handleChangeValues = (value) =>{
+        setValues(prevValue=>({
+            ...prevValue,
+            [value.target.name]: value.target.value,
+        }));
+    }
+
     return (
         <ContatoContainer>
             <Header></Header>
@@ -38,23 +48,23 @@ function Contato() {
                     <Formulario>
                         <div>
                             <label htmlFor="name">Nome:</label>
-                            <input type="text" required />
+                            <input type="text" id='name' name='name' required onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="email">Email:</label>
-                            <input type="email" id="email" name="email" required />
+                            <input type="email" id="email" name="email" required onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="telefone">Telefone:</label>
-                            <input type="telefone" id="telefone" name="telefone" required />
+                            <input type="telefone" id="telefone" name="telefone" required onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="CPF">CPF:</label>
-                            <input type="CPF" id="CPF" name="CPF" required />
+                            <input type="CPF" id="CPF" name="CPF" required onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="message">Mensagem:</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <textarea id="message" name="message" required onChange={handleChangeValues}></textarea>
                         </div>
                         <Botão>
                             <button type="submit">Enviar</button>
