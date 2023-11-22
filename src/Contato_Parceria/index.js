@@ -81,17 +81,17 @@ function ContatoParceria() {
                 <ul className="links-social">
                     <li>
                         <a href="https://www.instagram.com/institutojardimperi/" target="_blank">
-                            <img src={instagram} alt="Instagram" class="img-icons" />
+                            <img src={instagram} alt="Instagram" className="img-icons" />
                         </a>
                     </li>
                     <li>
                         <a href="https://www.facebook.com/institutoperi/" target="_blank">
-                            <img src={facebook} alt="Facebook" class="img-icons" />
+                            <img src={facebook} alt="Facebook" className="img-icons" />
                         </a>
                     </li>
                     <li>
                         <a href="https://www.google.com/search?q=instituto+jardim+peri&oq=ins&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg8MgYIARBFGDkyBggCEEUYOzIGCAMQRRg8MgYIBBBFGDwyBggFEEUYQTIGCAYQRRhBMgYIBxBFGDzSAQgzNjUxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#" target="_blank">
-                            <img src={whatsapp} alt="Whatsapp" class="img-icons" />
+                            <img src={whatsapp} alt="Whatsapp" className="img-icons" />
                         </a>
                     </li>
                 </ul>
