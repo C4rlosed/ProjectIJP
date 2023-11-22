@@ -6,6 +6,7 @@ import instagram from '../Utilidades/Imagem/redes_sociais/instagram.svg'
 import facebook from '../Utilidades/Imagem/redes_sociais/facebook.svg'
 import whatsapp from '../Utilidades/Imagem/redes_sociais/whatsapp.svg'
 import { Link } from 'react-router-dom'
+import React, {useState} from 'react';
 
 const ParceriaContainer = style.div``
 
@@ -21,6 +22,15 @@ const Botão = style.div`
 `
 
 function ContatoParceria() {
+    const [values, setValues] = useState();
+    console.log(values)
+    const handleChangeValues = (value) =>{
+        setValues(prevValue=>({
+            ...prevValue,
+            [value.target.name]: value.target.value,
+        }));
+    }
+
     return (
         <ParceriaContainer>
             <Header></Header>
@@ -34,23 +44,23 @@ function ContatoParceria() {
                     <Formulario>
                         <div>
                             <label htmlFor="name">Nome:</label>
-                            <input type="text" required placeholder='Insira o seu nome:'/>
+                            <input type="text" id='name' name='name' required placeholder='Insira o seu nome:' onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="email">Email:</label>
-                            <input type="email" id="email" name="email" required placeholder='Insira o seu email:'/>
+                            <input type="email" id="email" name="email" required placeholder='Insira o seu email:' onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="CNPJ">CNPJ:</label>
-                            <input type="CNPJ" id="CNPJ" name="CNPJ" required placeholder='XX.XXX.XXX/0001-XX'/>
+                            <input type="CNPJ" id="CNPJ" name="CNPJ" required placeholder='XX.XXX.XXX/0001-XX' onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="RazaoSocial">Razão Social:</label>
-                            <input type="RazaoSocial" id="RazaoSocial" name="RazaoSocial" required placeholder='Razão Social:'/>
+                            <input type="RazaoSocial" id="RazaoSocial" name="RazaoSocial" required placeholder='Razão Social:' onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="message">Mensagem:</label>
-                            <textarea id="message" name="message" required placeholder='Escreva uma mensagem:'></textarea>
+                            <textarea id="message" name="message" required placeholder='Escreva uma mensagem:' onChange={handleChangeValues}></textarea>
                         </div>
                         <Botão>
                             <button type="submit">Enviar</button>
