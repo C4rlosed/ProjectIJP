@@ -59,6 +59,9 @@
     width: 1050px;
     margin: 0 auto;
 }
+.div-carrossel{
+    margin-bottom: 15%;
+}
 .slide-item{
     width: 1050px;
     height: 325px;

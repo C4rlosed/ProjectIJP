@@ -42,13 +42,16 @@ function Noticia() {
 
             <article className='noticia-conteudo'>
                 <div>
-                    <img src={noticiactd} alt=''/>
+                    <img src={noticiactd} alt='' />
                     <div className='noticia-text'>
                         <h2>Quisque aliquam ligula et mi pharetra feugiat.</h2>
                     </div>
                 </div>
             </article>
-            <Carrossel></Carrossel>
+
+            <div className='div-carrossel'>
+                <Carrossel></Carrossel>
+            </div>
             <Footer></Footer>
         </NoticiaContainer>
     )
