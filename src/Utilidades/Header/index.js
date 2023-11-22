@@ -11,6 +11,23 @@ const HeaderContainer = style.div`
     align-items: center;
     justify-content: space-between;
     margin: 5px 20px;
+
+    @media (max-width: 1300px){
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        margin: 10px 0;
+
+        @media (max-width: 850px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin: 10px 0;
+        }
+    }
 `
 
 function Header() {
