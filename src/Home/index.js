@@ -8,6 +8,7 @@ import noticia2img from '../Utilidades/Imagem/noticia2.png'
 import noticia3img from '../Utilidades/Imagem/noticia3.png'
 import Footer from '../Utilidades/Footer';
 import Header from '../Utilidades/Header';
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -25,14 +26,14 @@ function Home() {
                 <div>
                     <h2><span id='font-300'>CONHEÇA O </span> INSTITUTO</h2>
                     <p>Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst. Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.</p>
-                    <button type='button' className='button-home'>Saiba Mais</button>
+                    <button type='button' className='button-home'><Link to="/Sobre">Saiba Mais</Link></button>
                 </div>
             </section>
             <section className='doacao-bg-home'>
                 <div>
                     <h2><span id='font-300'>SEJA UM</span> APOIADOR!</h2>
                     <p>Ut pellentesque dignissim sapien sed lobortis. Aenean non molestie nulla. Integer pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium. Nullam vitae nibh ullamcorper, cursus libero nec, tincidunt est.</p>
-                    <button type='button' className='button-home'>Doe já!</button>
+                    <button type='button' className='button-home'><Link to="/Contato">Doe já!</Link></button>
                 </div>
                 <img className='doacao-img-home' src={doacaoimg} alt='' />
             </section>

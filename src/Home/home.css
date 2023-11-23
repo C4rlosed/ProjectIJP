@@ -21,6 +21,17 @@
     border-radius: 50%;
     object-fit: none;
 }
+@media (max-width:850px) {
+    .home-banner {
+        padding-top: 15%;
+    }
+    #LogoBanner {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: none;
+    }
+}
 
 .home-banner>h1 {
     font-size: 38px;
