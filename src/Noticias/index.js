@@ -59,20 +59,20 @@ function Noticia() {
 
 const data = [
     {
-        title: `PORTA EST ANTE`,
-        info: `In porta est ante, sed convallis turpis ornare et`,
+        title: `Rexona quebrando barreiras`,
+        info: `O Projeto se concentra no apoio a crianças e adolescentes para serem mais ativos.`,
         date: `21/08/2021`,
         image: noticia1img
     },
     {
-        title: `QUISQUE ALIQUAM`,
-        info: `Quisque aliquam ligula et mi pharetra feugiat.`,
+        title: `Visita Musical`,
+        info: `Nosso querido amigo e rapper Will veio conhecer o instituto.`,
         date: `12/05/2021`,
         image: noticia2img
     },
     {
-        title: `PORTA EST ANTE`,
-        info: `In porta est ante, sed convallis turpis ornare et`,
+        title: `Dia das crianças memorável`,
+        info: `A Hillsong e colaboradores, proporcionaram um dia mais que especial às crianças da comunidade.`,
         date: `08/11/2022`,
         image: noticia3img
     },

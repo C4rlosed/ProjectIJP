@@ -1,10 +1,13 @@
 import 'swiper/css';
 import 'swiper/css/bundle';
 import { Navigation, Pagination } from 'swiper/modules';
-import noticiactd from '../Utilidades/Imagem//noticias/1.jpg'
-import noticiactd1 from '../Utilidades/Imagem//noticias/2.jpg'
-import noticiactd2 from '../Utilidades/Imagem//noticias/3.jpg'
-import '../Noticias/noticia.css'
+import imgparceiros from '../Utilidades/Imagem//parceiros/quebrandobarreiras.png'
+import imgparceiros1 from '../Utilidades/Imagem//parceiros/quebrandobarreiras.png'
+import imgparceiros2 from '../Utilidades/Imagem//parceiros/quebrandobarreiras.png'
+import imgparceiros3 from '../Utilidades/Imagem//parceiros/quebrandobarreiras.png'
+import imgparceiros4 from '../Utilidades/Imagem//parceiros/quebrandobarreiras.png'
+import imgparceiros5 from '../Utilidades/Imagem//parceiros/quebrandobarreiras.png'
+import '../Parceiros/parceiros.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import styled from 'styled-components';
 
@@ -14,55 +17,53 @@ const data = [
         title: `PORTA EST ANTE`,
         info: `In porta est ante, sed convallis turpis ornare et`,
         date: `21/08/2021`,
-        image: noticiactd
+        image: imgparceiros
     },
     {
         id: '2',
         title: `QUISQUE ALIQUAM`,
         info: `Quisque aliquam ligula et mi pharetra feugiat.`,
         date: `12/05/2021`,
-        image: noticiactd1
+        image: imgparceiros1
     },
     {
         id: '3',
         title: `PORTA EST ANTE`,
         info: `In porta est ante, sed convallis turpis ornare et`,
         date: `08/11/2022`,
-        image: noticiactd2
+        image: imgparceiros2
     },
     {
         id: '4',
         title: `PORTA EST ANTE`,
         info: `In porta est ante, sed convallis turpis ornare et`,
         date: `21/08/2021`,
-        image: noticiactd
+        image: imgparceiros3   
     },
     {
         id: '5',
         title: `QUISQUE ALIQUAM`,
         info: `Quisque aliquam ligula et mi pharetra feugiat.`,
         date: `12/05/2021`,
-        image: noticiactd1
+        image: imgparceiros4
     },
     {
         id: '6',
         title: `PORTA EST ANTE`,
         info: `In porta est ante, sed convallis turpis ornare et`,
         date: `08/11/2022`,
-        image: noticiactd2
+        image: imgparceiros5
     },
 ]
 
 const CarrosselContainer = styled.div`
-    width: 1050px;
-    max-width: 100%;
-    margin: 0 auto;
+    margin: 0 5% 0 5%;
 `
 
-function Carrossel() {
+function CarrosselParceiro() {
     return (
         <CarrosselContainer>
-            <div className='carrossel-noticias'>
+            <div className='carrossel-parceiros'>
             <Swiper
                 modules={[Navigation, Pagination]}
                 slidesPerView={1}
@@ -88,4 +89,4 @@ function Carrossel() {
 };
 
 
-export default Carrossel;
+export default CarrosselParceiro;
