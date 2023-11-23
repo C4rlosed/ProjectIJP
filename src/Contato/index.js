@@ -19,8 +19,7 @@ const Formulario = style.form`
 `
 
 const Botão = style.div`
-    margin-left: 24%;
-    margin-bottom: 3%;
+    margin: 0 auto;
 `
 
 

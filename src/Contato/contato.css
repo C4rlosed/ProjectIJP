@@ -66,7 +66,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .titulo-form {
@@ -81,7 +80,6 @@
 .contact-form .heading {
   font-size: 24px;
   color: #ffffff;
-  ;
   margin-bottom: 12px;
   font-weight: bold;
   display: block;
@@ -148,4 +146,55 @@ textarea {
   height: 360px;
   text-align: center;
   font-size: 12px;
+}
+
+@media (max-width:1380px) {
+  .bg-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 200px;
+    padding-top: 30%;
+  }
+  .midias-sociais {
+    width: 440px;
+    height: 715px;
+    font-weight: 600;
+    /* top, right, bottom, left */
+    gap: 5%;
+  }
+  .instagram, .endereco, .whatsapp{
+    margin: 5% 0 5% 0;
+  }
+  @media (max-width: 830px) {
+    .contato-bg>h1 {
+      font-size: 35px;
+      padding: 10% 10% 1% 10%;
+    }
+    
+    .contato-bg>p {
+      font-size: 40px;
+      padding: 0 10% 0 10%;
+    }
+  }
+  @media (max-width:700px) {
+    .bg-formulario {
+      padding-top: 40%;
+    }
+    .contact-form {
+      background-size: contain;
+      height: 650px;
+      width: 650px;
+    }
+    .titulo-form {
+      padding-top: 0;
+    }
+    .contact-form button[type="submit"] {
+      height: 40px;
+      width: 140px;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+  }
 }
