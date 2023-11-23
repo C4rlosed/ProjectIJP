@@ -27,10 +27,10 @@ function Sobre() {
                         Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst.
                         Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.</p>
                 </div>
-                <img src={sobreimg1} alt='' />
+                <img className='img-sobre' src={sobreimg1} alt='' />
             </section>
             <section className='sobre-conteudo-2'>
-                <img src={sobreimg2} alt='' />
+                <img className='img-sobre'  src={sobreimg2} alt='' />
                 <div>
                     <p>Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst.
                         Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.
