@@ -25,14 +25,20 @@ function Home() {
                 <img className='sobre-img-home' src={sobreimg} alt='' />
                 <div>
                     <h2><span id='font-300'>CONHEÇA O </span> INSTITUTO</h2>
-                    <p>Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst. Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.</p>
+                    <p>O Instituto Jardim Peri é um farol de esperança no coração do bairro. 
+                        Comprometidos com o desenvolvimento comunitário, oferecemos programas educacionais, 
+                        eventos solidários e oportunidades que empoderam nossos vizinhos a 
+                        alcançarem todo o seu potencial.</p>
                     <button type='button' className='button-home'><Link to="/Sobre">Saiba Mais</Link></button>
                 </div>
             </section>
             <section className='doacao-bg-home'>
                 <div>
                     <h2><span id='font-300'>SEJA UM</span> APOIADOR!</h2>
-                    <p>Ut pellentesque dignissim sapien sed lobortis. Aenean non molestie nulla. Integer pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium. Nullam vitae nibh ullamcorper, cursus libero nec, tincidunt est.</p>
+                    <p>Junte-se a nós como parceiro no compromisso fortalecer nossa comunidade. 
+                        Ao colaborar com o Instituto Jardim Peri, você faz parte de iniciativas 
+                        transformadoras, impulsionando o progresso e promovendo mudanças positivas. 
+                        Sua parceria é essencial para construirmos juntos um futuro mais inclusivo e próspero.</p>
                     <button type='button' className='button-home'><Link to="/Contato">Doe já!</Link></button>
                 </div>
                 <img className='doacao-img-home' src={doacaoimg} alt='' />

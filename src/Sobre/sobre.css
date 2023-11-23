@@ -58,8 +58,8 @@
 
 .sobre-conteudo-1>div {
     text-align: center;
-    padding: 0 10%;
-    font-size: 24px;
+    padding: 0 8%;
+    font-size: 20px;
 }
 
 .sobre-conteudo-2 {
@@ -77,8 +77,8 @@
 
 .sobre-conteudo-2>div {
     text-align: center;
-    padding: 0 10%;
-    font-size: 24px;
+    padding: 0 8%;
+    font-size: 20px;
 }
 
 @media (max-width:1440px) {

@@ -22,20 +22,24 @@ function Sobre() {
             <h2 className='titulo-pg'>QUEM SOMOS</h2>
             <section className='sobre-conteudo-1'>
                 <div>
-                    <p>Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst.
-                        Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.
-                        Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst.
-                        Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.</p>
+                    <p>Fundado em 2020 por Renato Alves Duarte, o Instituto Jardim Peri nasceu da visão de 
+                        transformar desafios em oportunidades na comunidade. Inspirado por um profundo 
+                        desejo de impactar positivamente as vidas no Jardim Peri, Renato estabeleceu o 
+                        Instituto como um farol de esperança e empoderamento. Desde então, o 
+                        Instituto Jardim Peri tem sido um agente de mudança, proporcionando programas educacionais, 
+                        eventos culturais e ações solidárias que fortalecem os laços comunitários.</p>
                 </div>
                 <img className='img-sobre' src={sobreimg1} alt='' />
             </section>
             <section className='sobre-conteudo-2'>
-                <img className='img-sobre'  src={sobreimg2} alt='' />
+                <img className='img-sobre' src={sobreimg2} alt='' />
                 <div>
-                    <p>Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst.
-                        Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.
-                        In hac habitasse platea dictumst. Quisque aliquam ligula et mi pharetra feugiat.
-                        In porta est ante, sed convallis turpis ornare et.</p>
+                    <p>Nosso compromisso é capacitar cada indivíduo a alcançar seu potencial máximo, 
+                        criando um ambiente onde a educação e o apoio social são acessíveis a todos. 
+                        Ao fazer parte do Instituto Jardim Peri, você se junta a uma comunidade dedicada 
+                        a construir um Jardim Peri mais forte, resiliente e unido. Juntos, estamos 
+                        construindo futuros e inspirando a transformação que acreditamos ser possível 
+                        quando nos unimos em prol do bem comum.</p>
                 </div>
             </section>
             <Footer></Footer>
