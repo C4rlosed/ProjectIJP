@@ -21,7 +21,7 @@ function Home() {
                 </div>
             </div>
             <section className='sobre-bg-home'>
-                <img src={sobreimg} alt='' />
+                <img className='sobre-img-home' src={sobreimg} alt='' />
                 <div>
                     <h2><span id='font-300'>CONHEÇA O </span> INSTITUTO</h2>
                     <p>Mauris aliquet arcu purus, vel condimentum ligula eleifend eu. In hac habitasse platea dictumst. Quisque aliquam ligula et mi pharetra feugiat. In porta est ante, sed convallis turpis ornare et.</p>
@@ -34,26 +34,32 @@ function Home() {
                     <p>Ut pellentesque dignissim sapien sed lobortis. Aenean non molestie nulla. Integer pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium. Nullam vitae nibh ullamcorper, cursus libero nec, tincidunt est.</p>
                     <button type='button' className='button-home'>Doe já!</button>
                 </div>
-                <img src={doacaoimg} alt='' />
+                <img className='doacao-img-home' src={doacaoimg} alt='' />
             </section>
             <article className='noticias-bg-home'>
                 <div className='bannerNews'></div>
                 <div className='noticias-conteudo-home'>
                     <div className='noticias-home'>
                         <a>
-                            <img src={noticia1img} alt=''></img>
-                            <h1>PORTA EST ANTE</h1>
-                            <p>In porta est ante, sed convallis turpis ornare et</p>
+                            <img className='img-home-noticias' src={noticia1img} alt=''></img>
+                            <div className='noticias-home-txt'>
+                                <h3>Rexona quebrando barreiras</h3>
+                                <p>O Projeto se concentra no apoio a crianças e adolescentes para serem mais ativos.</p>
+                            </div>
                         </a>
                         <a>
-                            <img src={noticia2img} alt=''></img>
-                            <h1>PORTA EST ANTE</h1>
-                            <p>In porta est ante, sed convallis turpis ornare et</p>
+                            <img className='img-home-noticias'  src={noticia2img} alt=''></img>
+                            <div className='noticias-home-txt'>
+                                <h3>Visita Musical</h3>
+                                <p>Nosso querido amigo e rapper Will veio conhecer o instituto.</p>
+                            </div>
                         </a>
                         <a>
-                            <img src={noticia3img} alt=''></img>
-                            <h1>PORTA EST ANTE</h1>
-                            <p>In porta est ante, sed convallis turpis ornare et</p>
+                            <img className='img-home-noticias'  src={noticia3img} alt=''></img>
+                            <div className='noticias-home-txt'>
+                                <h3>Dia das crianças memorável</h3>
+                                <p>A Hillsong e colaboradores, proporcionaram um dia mais que especial às crianças da comunidade.</p>
+                            </div>
                         </a>
                     </div>
                 </div>

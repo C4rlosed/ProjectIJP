@@ -118,3 +118,18 @@
     left: 50px;
     right: 50px;
 }
+
+@media (max-width:1400px) {
+    .parceiro-banner {
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 10%;
+	}
+    @media (max-width:1050px) {
+        
+    }
+
+    @media (max-width:850px) {
+        
+    }
+}

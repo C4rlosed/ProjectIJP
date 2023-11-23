@@ -32,24 +32,44 @@ button a{
    color: #ffffff;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1550px) {
     .header-menu{
         display: flex;
         gap: 25px;
         font-weight: 600;
         list-style: none; 
-        font-size: 13px;
+        font-size: 15px;
     }
     nav{
-        margin-left: 10%;
+        margin-left: 20%;
     }
     button{
         background: #007636;
         border-radius: 30px;
         padding: 12px 24px;
         border: none;
-        font-size: 13px;
+        font-size: 15px;
         cursor: pointer;
+    }
+    @media (max-width:1400px) {
+        .header-menu{
+            display: flex;
+            gap: 25px;
+            font-weight: 600;
+            list-style: none; 
+            font-size: 13px;
+        }
+        nav{
+            margin-left: 10%;
+        }
+        button{
+            background: #007636;
+            border-radius: 30px;
+            padding: 12px 24px;
+            border: none;
+            font-size: 13px;
+            cursor: pointer;
+        }
     }
     @media (max-width:1050px) {
         .header-menu{

@@ -12,12 +12,20 @@ const HeaderContainer = style.div`
     justify-content: space-between;
     margin: 5px 20px;
 
-    @media (max-width: 1300px){
+    @media (max-width: 1550px){
         display: flex;
         align-items: center;
         justify-content: space-around;
-        gap: 20px;
+        gap: 10px;
         margin: 10px 0;
+
+        @media (max-width: 1300px){
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 20px;
+            margin: 10px 0;
+        }
 
         @media (max-width: 850px){
             display: flex;
