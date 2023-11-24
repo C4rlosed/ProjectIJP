@@ -7,6 +7,7 @@ import facebook from '../Utilidades/Imagem/redes_sociais/facebook.svg'
 import whatsapp from '../Utilidades/Imagem/redes_sociais/whatsapp.svg'
 import { Link } from 'react-router-dom'
 import React, {useState} from 'react';
+import Axios from 'axios';
 
 const ContatoContainer = style.div`
 
@@ -34,6 +35,21 @@ function Contato() {
         }));
     }
 
+    const handleClickButton = () => {
+        Axios.post("http://localhost:3001/Contato", {
+          Nome: values.name,
+          Email: values.email,
+          Telefone: values.telefone,
+          CPF: values.cpf,
+          Mensagem: values.message,
+
+        }).then((response) => {
+          console.log(response);
+          
+        })
+      };
+      
+
     return (
         <ContatoContainer>
             <Header></Header>
@@ -58,15 +74,15 @@ function Contato() {
                             <input type="telefone" id="telefone" name="telefone" required onChange={handleChangeValues}/>
                         </div>
                         <div>
-                            <label htmlFor="CPF">CPF:</label>
-                            <input type="CPF" id="CPF" name="CPF" required onChange={handleChangeValues}/>
+                            <label htmlFor="cpf">CPF:</label>
+                            <input type="cpf" id="cpf" name="cpf" required onChange={handleChangeValues}/>
                         </div>
                         <div>
                             <label htmlFor="message">Mensagem:</label>
                             <textarea id="message" name="message" required onChange={handleChangeValues}></textarea>
                         </div>
                         <Botão>
-                            <button type="submit">Enviar</button>
+                            <button type="submit" onClick={handleClickButton}>Enviar</button>
                         </Botão>
                     </Formulario>
                 </div>
