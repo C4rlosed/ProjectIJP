@@ -28,10 +28,10 @@ function Parceiro() {
             <div id='sub-titulo'></div>
             <div className="logos-parceiros">
                 <div className="logo-parceiros-img">
-                    <img src={movimentoconexao} alt="" />
-                    <img src={quebrandobarreiras} alt="" />
-                    <img src={lovefutbol} alt="" />
-                    <img src={freefirelogo} alt="" />
+                    <img className='logos' src={movimentoconexao} alt="movimento conexão favela" />
+                    <img className='logos' src={quebrandobarreiras} alt="quebrando barreiras rexona" />
+                    <img className='logos' src={lovefutbol} alt="lovefutbol" />
+                    <img className='logos' src={freefirelogo} alt="free fire" />
                 </div>
             </div>
             <CarrosselParceiro></CarrosselParceiro>
@@ -40,8 +40,10 @@ function Parceiro() {
                 <div className='parceiro-text'>
                     <h2><span id='font-300'>UM POUCO DO QUE JÁ </span> CONSTRUIMOS JUNTOS <span id='font-300'>POR AQUI</span></h2>
                     <div id='sub-titulo-2'></div>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-                        its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                    <p>
+                    Em uma nova parceria com a ONG Love. Futebol e, dessa vez, através do trabalho do Instituto Jardim Peri, 
+                    o Projeto Rexona Quebrando Barreiras chega à comunidade onde Gabriel Jesus nasceu com o objetivo de apoiar 
+                    crianças e adolescentes, fomentando ainda mais o sonho dos pequenos atletas.
                     </p>
                     <button type="button" className="button-parceiro"><Link to="/Noticias">Saiba Mais</Link></button>
                 </div>
