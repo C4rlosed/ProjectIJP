@@ -136,6 +136,19 @@
             bottom: 200px;
             font-size: 13px;
         }
+        .noticias-banner>h1{
+            margin: 0;
+            font-size: 35px;
+        }
+        .noticias-banner>p{
+            font-size: 32px;
+            margin: 0;
+        }
+        .noticias-banner{
+            margin-bottom: 30%;
+            color: #ffffff;
+            text-align: center;
+        }
     }
     @media (max-width:770px) {
         .noticia-conteudo>div>img{

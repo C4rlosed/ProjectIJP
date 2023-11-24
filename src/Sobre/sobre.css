@@ -150,7 +150,15 @@
             order: -1;
         }
         .sobre-banner {
-            padding-top: 20%;
+            padding-top: 30%;
+        }
+        .sobre-banner>h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+        .sobre-banner>p {
+            font-size: 28px;
+            margin: 0;
         }
     }
 }
