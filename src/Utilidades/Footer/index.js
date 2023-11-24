@@ -18,7 +18,9 @@ function Footer() {
         <FooterContainer>
             <div className='footer-bg'>
                 <h2><span id='font-300'>SEJA</span> PARCEIRO <span id='font-300'>E</span> FAÇA PARTE DESTA HISTÓRIA!</h2>
-                <p>Aenean non molestie nulla. Intege pulvinar enim justo, id viverra ligula varius sit amet. Nullam sagittis elit imperdiet lorem mollis pretium.</p>
+                <p>Venha fazer parte desta causa que ajuda diversas crianças e 
+                    adolescentes da comunidade com os estudos, incentivando a 
+                    prática de esportes e no ingresso no mercado de trabalho</p>
                 <button type='button'><Link to="/Parceiros">Saiba Mais</Link></button>
             </div>
             <div className='footer'>
