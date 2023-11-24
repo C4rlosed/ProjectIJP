@@ -44,7 +44,7 @@ function Noticia() {
                 <div>
                     <img src={noticiactd} alt='' />
                     <div className='noticia-text'>
-                        <h2>Quisque aliquam ligula et mi pharetra feugiat.</h2>
+                        <h2>Juntos por um só objetivo, venha fazer parte de nossa família!</h2>
                     </div>
                 </div>
             </article>
